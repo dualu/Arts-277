@@ -1,0 +1,99 @@
+/*++Header Section */
+body{
+	background-color: #9c9f84;
+	margin:0px;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-size: 14px;
+}
+
+#header {
+	background: #5c755e;
+	margin: 10px;
+	height: 90px;
+	border-radius:5px;
+}
+
+#navbar ul { 
+	background:#010101;
+	border-radius:5px;
+	margin:10px;
+	padding:10px;
+	list-style-type: none;
+	text-align:center;
+	
+}
+
+#navbar ul li{
+	 display:inline;
+
+}
+
+#navbar ul li a {
+	color:#F7F7F7;
+	text-decoration:none;
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	
+	padding: 0.5em 1em;
+	opacity: 1.0;
+	transition: 0.5s ease-in-out;
+	
+	
+	
+}
+#navbar ul li a:hover {
+	color: #F0E009;
+	background-color:#414F35;
+	border-radius: 5px;
+}
+.main {
+	background: #e5e4d7;
+	margin-top:0px;
+	margin-right:10px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	padding:20px;
+	ont-size: 200%:
+}
+
+
+
+
+
+
+#footer {
+	background: #5c755e;
+	margin: 10px;
+	height: 60px;
+	clear:both;
+	text-align: center;
+	color:aliceblue;
+	padding:15px;
+	font-size:90%;
+}
+#footer ul {
+	margin:10px;
+	text-decoration: none;
+}
+#footer ul li{
+	display: inline;
+}
+ 
+h1{
+	color:aliceblue;
+	font-size:250%;
+	font-family:Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	margin:0px;
+	text-align: center;
+	padding-top: 20px;
+	/*positin:relative;
+	top:50%;
+	-webkit-transform: translateY(-50%);
+	-ms-tramsform:translateY(-50%);
+	transform: translateY(-50%);*/
+}
+/* i had to use this section to increase the font size of the first paragraph*/
+strong {font-size: 200%}
+h4 {
+	text-align: center;
+}
